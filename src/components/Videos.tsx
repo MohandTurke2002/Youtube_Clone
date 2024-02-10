@@ -23,6 +23,6 @@ const Videos = ({ videos, justifyContent, direction }: Props) => {
 type Props = {
   videos: ApiData[] | null;
   justifyContent?: string;
-  direction?: string;
+  direction?: "column" | "row";
 };
 export default Videos;
